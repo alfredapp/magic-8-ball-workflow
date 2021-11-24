@@ -3,4 +3,4 @@
 
 ## Download
 
-[Get the latest release.](https://github.com/alfredapp/magic-8-ball-workflow/releases/download/2021.1/Magic.8.Ball.alfredworkflow)
+[Get the latest release.](https://github.com/alfredapp/magic-8-ball-workflow/releases/latest/download/Magic.8.Ball.alfredworkflow)
