@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.vero.magic8ball</string>
+	<key>connections</key>
+	<dict>
+		<key>82462689-993F-4B37-B0D7-94CE20667F72</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8C6EFB2C-ADAB-4A0C-B9A3-B4533E540C55</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8C6EFB2C-ADAB-4A0C-B9A3-B4533E540C55</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0ACA648E-FF27-442F-82BB-420E180D0069</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vero Pepperrell</string>
+	<key>description</key>
+	<string>Ask any question to the Magic 8 Ball</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Magic 8 Ball</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>8ball</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Ask the Magic 8 Ball a question</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>82462689-993F-4B37-B0D7-94CE20667F72</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>2</integer>
+				<key>backgroundcolor</key>
+				<string>#010121D8</string>
+				<key>fadespeed</key>
+				<integer>150</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string>Impact</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>The Magic 8 Ball says...
+{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>0ACA648E-FF27-442F-82BB-420E180D0069</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>2</integer>
+				<key>words</key>
+				<string>No chance.
+Odds aren't good...
+Not now.
+Ask again later.
+Possibly maybe!
+Can't tell yet...
+Absolutely!
+You're on fire!
+The stars say yes.
+Curiously likely!
+Don't be daft!
+Why not?
+You know the answer.</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.random</string>
+			<key>uid</key>
+			<string>8C6EFB2C-ADAB-4A0C-B9A3-B4533E540C55</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This workflow was created at Alfred HQ.
+
+Credit to Deanishe for the hilarious idea!
+
+Cheers,
+Vero</string>
+	<key>uidata</key>
+	<dict>
+		<key>0ACA648E-FF27-442F-82BB-420E180D0069</key>
+		<dict>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>82462689-993F-4B37-B0D7-94CE20667F72</key>
+		<dict>
+			<key>xpos</key>
+			<integer>55</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>8C6EFB2C-ADAB-4A0C-B9A3-B4533E540C55</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.1</string>
+	<key>webaddress</key>
+	<string>https://www.alfredapp.com</string>
+</dict>
+</plist>
