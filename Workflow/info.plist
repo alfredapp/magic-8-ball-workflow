@@ -74,7 +74,7 @@
 				<key>fadespeed</key>
 				<integer>150</integer>
 				<key>fillmode</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>font</key>
 				<string>Impact</string>
 				<key>ignoredynamicplaceholders</key>
@@ -127,12 +127,18 @@ You know the answer.</string>
 
 Credit to Deanishe for the hilarious idea!
 
+Use the keyword "8ball" followed by your question, and press return to see what the Magic 8 Ball predicts. The answer will be shown in Large Type.
+
 Cheers,
 Vero</string>
 	<key>uidata</key>
 	<dict>
 		<key>0ACA648E-FF27-442F-82BB-420E180D0069</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>The answer will be shown in Large Type in the centre of your screen.</string>
 			<key>xpos</key>
 			<integer>340</integer>
 			<key>ypos</key>
@@ -140,6 +146,10 @@ Vero</string>
 		</dict>
 		<key>82462689-993F-4B37-B0D7-94CE20667F72</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>The keyword is set to "8ball" with an optional argument, so you can ask your important questions.</string>
 			<key>xpos</key>
 			<integer>55</integer>
 			<key>ypos</key>
@@ -147,6 +157,10 @@ Vero</string>
 		</dict>
 		<key>8C6EFB2C-ADAB-4A0C-B9A3-B4533E540C55</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Responses can be added to the Random utility, and an answer will be returned from the list.</string>
 			<key>xpos</key>
 			<integer>240</integer>
 			<key>ypos</key>
@@ -156,7 +170,7 @@ Vero</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1</string>
+	<string>2021.2</string>
 	<key>webaddress</key>
 	<string>https://www.alfredapp.com</string>
 </dict>
