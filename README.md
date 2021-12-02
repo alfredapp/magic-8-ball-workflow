@@ -6,7 +6,7 @@ A simple workflow that makes use of the Random utility to answer your questions 
 
 Use the keyword `8ball` followed by your question, and press return to see what the Magic 8 Ball predicts. The answer will be shown in Large Type.
 
-![Magic 8 Ball](/resources/magic-8ball.png?raw=true)
+![Magic 8 Ball](/Resources/magic-8ball.png?raw=true)
 
 Want to change the responses? Open the [Random Utility](https://www.alfredapp.com/help/workflows/utilities/random/) and change the possible answers.
 
